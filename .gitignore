@@ -1,1 +1,24 @@
+# Secrets and environment variables
 .env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Data
+*.parquet
+data/raw/
+data/processed/
+
+# Databricks local configuration
+.databricks/
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+.DS_Store
